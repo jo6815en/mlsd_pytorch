@@ -19,7 +19,7 @@ import  argparse
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config",
-                        default= os.path.dirname(__file__)+ '/configs/mobilev2_mlsd_tiny_512_base.yaml',
+                        default= os.path.dirname(__file__)+ '/configs/mobilev2_mlsd_tiny_512_base2_bsize24.yaml',
                         type=str,
                         help="")
     return parser.parse_args()
